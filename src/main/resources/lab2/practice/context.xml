@@ -17,4 +17,7 @@
         <property name="message" value="url"/>
     </bean>
 
+    <bean class="lab2.practice.PropertyPlaceholder"/>
+
+
 </beans>

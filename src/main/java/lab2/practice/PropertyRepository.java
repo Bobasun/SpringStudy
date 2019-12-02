@@ -1,8 +1,10 @@
 package lab2.practice;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashMap;
 import java.util.Map;
-
+@Service
 public class PropertyRepository {
     private final static Map<String, String> map = new HashMap<String, String>() {
         {
